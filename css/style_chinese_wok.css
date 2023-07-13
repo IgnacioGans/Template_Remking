@@ -1,0 +1,149 @@
+nav {
+  background-color: #ac0606;
+  color: white;
+}
+nav .nav-link {
+  color: white;
+}
+nav .navbar-nav .nav-link.active {
+  color: whitesmoke;
+  font-weight: 700;
+}
+.social-media i {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .rk-caption {
+  background-color: #9a0000;
+  padding: 1rem 2rem;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 2rem;
+}
+header .rk-caption :is(h1, p) {
+  margin: 0;
+}
+#testimony {
+  background-color: #a30c2b;
+  color: white;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+#testimony .section-title {
+  text-align: center;
+}
+@media screen and (min-width: 800px) {
+  #navbarChineseWok .navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  header .rk-caption {
+    position: absolute;
+    top: 30%;
+  }
+  #chef-recomended {
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 35rem;
+  }
+  #chef-recomended .section-title {
+    text-align: center;
+  }
+  #chef-recomended .all-box-item-img {
+    display: flex;
+  }
+  #chef-recomended .btn.btn-danger {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  #chef-recomended .single-box-item-img {
+    position: relative;
+  }
+  #chef-recomended .single-box-item-img .info-item {
+    justify-content: space-around;
+    display: flex;
+    padding: 1rem 5px;
+  }
+  #chef-recomended .single-box-item-img .info-item .name-item {
+    color: gray;
+  }
+  #chef-recomended .single-box-item-img .info-item .price-item {
+    color: #ff0000;
+  }
+  #chef-recomended .single-box-item-img .label-item {
+    position: absolute;
+    top: 6%;
+    background-color: #ff3636;
+    padding: 0.3rem;
+    margin: 0.5rem;
+    color: white;
+  }
+  #testimony {
+    padding-bottom: 9rem;
+  }
+  #testimony :is(.carousel-control-next, .carousel-control-prev) {
+    width: 5%;
+  }
+  #testimony .big-quote {
+    font-size: 5rem;
+  }
+  #testimony .section-title {
+    margin-bottom: 3rem;
+  }
+  #MeetTheMainChef {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  #MeetTheMainChef h1 {
+    margin-bottom: 3rem;
+  }
+  #gallery {
+    position: relative;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  #gallery .block-text {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    text-align: center;
+    width: 50rem;
+    height: 20rem;
+  }
+}
+@media screen and (max-width: 800px) {
+    header {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: black;
+  color: white;
+}
