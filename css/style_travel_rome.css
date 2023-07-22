@@ -1,0 +1,101 @@
+.navbar{
+    background-color: #000000a3;
+    color:white;
+}
+.navbar-brand, .navbar .nav-item > .nav-link{
+    color:white;
+}
+.navbar .nav-item > .nav-link.active{
+    color:#b3ff98;
+}
+.social-media i{
+    margin: 5px;
+}
+.banner .rk-caption{
+    background-color: #00000087;
+    padding:1rem;
+    color:white;
+}
+section{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+#monuments hr{
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 20%;
+    border:5px goldenrod solid;
+    opacity: unset;
+}
+
+#monuments .group-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: 1px solid #ffcdcd;
+    overflow: hidden;
+}
+#monuments .block-text{
+    line-height: 2;
+}
+
+#monuments button.btn.btn-danger{
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#monuments .group-img img{
+    flex-basis: 100%;
+}
+#monuments .group-img .img-vertical{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+    flex-basis: 100%;
+}
+#monuments .group-img .img-vertical img:first-child{
+    margin-bottom: 4px;
+}
+#todaysSpecial{
+    background-image: url('./../Img/Template_TravelRome/bg_carnaval_venecia.png');
+    color:white;
+}
+#todaysSpecial .block-flex{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+}
+#todaysSpecial .block-flex .block-text{
+    background-color: black;
+    padding: 2rem;
+}
+@media screen and (min-width: 800px) {
+    #navbarTravelRemking .navbar-nav {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    header .rk-caption {
+        position: absolute;
+        top: 40%;
+        left: 5%;
+    }
+    #monuments button.btn.btn-danger{
+        margin-top: 5rem;
+    }
+}
+
+.banner > img {
+    width:100%;
+}
+
