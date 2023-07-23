@@ -44,8 +44,10 @@ section{
 #monuments .block-text{
     line-height: 2;
 }
-
-#monuments button.btn.btn-danger{
+#ReserveTravelForm{
+    background: #80808033;
+}
+#monuments button.btn.btn-danger,#ReserveTravelForm button.btn.btn-dark{
     margin: 0 auto;
     text-align: center;
     display: flex;
@@ -80,6 +82,16 @@ section{
     background-color: black;
     padding: 2rem;
 }
+#ListTour{ 
+    background-image: url('./../Img/Template_TravelRome/Bg_ListTourRome.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color:white;
+}
+#ListTour .card{
+    background-color: #00000045;
+    color: white;
+}
 @media screen and (min-width: 800px) {
     #navbarTravelRemking .navbar-nav {
       margin-left: auto;
@@ -93,8 +105,21 @@ section{
     #monuments button.btn.btn-danger{
         margin-top: 5rem;
     }
+    #ListTour .box-list-tour{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
 
+
+footer{
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
 .banner > img {
     width:100%;
 }
