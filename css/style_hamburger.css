@@ -1,0 +1,152 @@
+.nav-link,.navbar-nav .nav-link.active{
+    color:white;
+}
+nav.navbar{
+    background-color: #00000063;
+}
+
+.box-info, .box-phone{
+    display: flex;
+}
+.box-info{
+    background-color: black;
+    color:white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.box-info .box-phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.box-info .box-phone p{
+    margin: 0;
+}
+.box-info .box-phone i{
+    border: 3px solid white;
+    border-radius: 100%;
+    padding:.2rem;
+    font-size: .8rem;
+    margin-right: 8px;
+}
+
+.box-info .social-media i {
+    margin: 5px;
+}
+header.banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header.banner .box-banner-text {
+    padding: 1rem 2rem;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+
+header.banner .box-banner-text .rk-caption {
+    background-color: #000000b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+header.banner .box-banner-text button.btn.btn-danger{
+    border-radius: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: .5rem 3rem;
+    margin-top: 2rem;
+}
+.section-title{
+    text-align: center;
+}
+#restaurant .section-title{
+    margin-bottom: 2rem;
+}
+#todaysSpecial{
+    background-image: url('./../Img/Template_Hamburger/Bg_Hamburger_TodaySpecials.png');
+    color:white;
+}
+#todaysSpecial .block-flex{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 16rem;
+    margin: 0 auto;
+}
+#todaysSpecial .block-flex .block-text{
+    background-color: black;
+    padding: 2rem;
+}
+#ReserveRestaurantForm{
+    background: #80808033;
+}
+#ReserveRestaurantForm button.btn.btn-dark {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    background-color: black;
+    padding: 4rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .box-info-right{
+    color:white;
+    text-align: center;
+}
+@media screen AND (min-width:800px) {
+    section {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    .navbar-brand img{
+        width: 16rem;
+    }
+    nav.navbar .navbar-nav{
+        margin-right: 6rem;
+    }
+
+    nav.navbar .navbar-nav .nav-link{
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+        text-transform: uppercase;
+    }
+    header.banner .box-banner-text {
+        position: absolute;
+        top: 50%;
+    }
+    footer img{
+        width: 15rem;
+    }
+    footer .box-info-right{
+        margin: 0 7rem;
+    }
+    footer .box-info-right p{
+        margin-bottom: .5rem;
+    }
+    footer .box-info-right .social-media{
+        margin-bottom: 1rem;
+    }
+    footer .box-info-right .social-media i {
+        margin: 5px 8px;
+        font-size: 1.5rem;
+    }
+}
